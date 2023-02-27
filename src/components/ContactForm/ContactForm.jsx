@@ -36,3 +36,7 @@ export const ContactForm = ({ onSubmit }) => {
     </Formik>
   );
 };
+
+ContactForm.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};

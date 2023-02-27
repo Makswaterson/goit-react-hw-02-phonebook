@@ -11,3 +11,10 @@ export const ContactItem = ({ id, name, number, onDelete }) => {
     </StyledItem>
   );
 };
+
+ContactItem.propTypes = {
+  id: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
+  number: PropTypes.string.isRequired,
+  onDelete: PropTypes.func.isRequired,
+};
